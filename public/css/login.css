@@ -1,0 +1,61 @@
+/* login.css */
+
+body {
+    background-color: #f8f9fa; /* Background color for the entire page */
+}
+
+.container {
+    max-width: 400px; /* Adjust the max width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    margin-top: 50px; /* Add some top margin for spacing */
+    background-color: #ffffff; /* Container background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Primary color for the heading */
+}
+
+.form-outline {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    color: #495057; /* Label text color */
+}
+
+.form-control {
+    border: 1px solid #ced4da; /* Border color for form controls */
+    border-radius: 4px; /* Optional: Add rounded corners */
+}
+
+.btn-primary {
+    background-color: #28a745; /* Green color for success */
+    border: 1px solid #28a745;
+}
+
+.btn-primary:hover {
+    background-color: #218838; /* Darker green color on hover */
+    border: 1px solid #218838;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5); /* Optional: Add focus state */
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Optional: Add styles for the forgot password link and registration link */
+a {
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
